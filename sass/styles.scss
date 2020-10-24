@@ -1,0 +1,14 @@
+/*CONFIGURACIONES*/
+
+@import 'config/mixin';
+@import 'config/settings';
+
+/*PARTIALS*/
+@import 'partial/helpers';
+@import 'partial/globales';
+@import 'partial/account';
+@import 'partial/date';
+@import 'partial/gender';
+@import 'partial/payment';
+@import 'partial/terms';
+

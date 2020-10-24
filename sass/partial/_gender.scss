@@ -1,0 +1,21 @@
+/*-----------GENDER-----------*/
+.gender{
+  margin-top: 20px;
+}
+.gender-botton{
+  background-color: $btn;
+    padding: 8px 15px 8px 12px;
+    text-align: center;
+    float: left;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+
+    &:hover{
+      background-color:$btn-hover;
+    }
+}
+
+.gender-botton + .gender-botton{
+  margin-left: 15px;
+}

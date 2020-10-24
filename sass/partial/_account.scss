@@ -1,0 +1,19 @@
+/*----------ACCOUNT-----------*/
+
+/*-----------iconos-----------*/
+.icon{
+  width: 10px;
+  background-color:  $input-color;
+  border: 1px solid $input-border;
+  padding: 10px 10px 16px 10px;
+  float: left;
+}
+
+/*-----------ACCOUNT-----------*/
+.cuadrosTexto{
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.account{
+  @include data;
+}

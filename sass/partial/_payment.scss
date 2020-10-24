@@ -1,0 +1,18 @@
+/*-----------PAYMENT-----------*/
+.pyment{
+  margin-top: 20px;
+}
+.pymentBotones{
+  @include btn-1;
+}
+
+.visa{
+  width: 20px;
+  height: 10px;
+  padding-right: 5px;
+}
+.paypal{
+  width: 34px;
+  height: 12px;
+  padding-right: 5px;
+}
