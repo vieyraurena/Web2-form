@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!--Todos los meta datos-->
+  <meta name="Description" content="Descripcion del sitio web">
+  <meta name="Keyword" content="Creación de formulario">  
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="public/styles.css">
+  <title>Formulario</title> <!--Titulo de la pastaña de la pagina-->
+</head>
+
+<body>
+  <img class="img-fondo" src="img/fondo.jpg" alt="fondo">
+  <div class="main-wrapper">
+    <h1>Formulario</h1>
+    <div class="wrapper-form">
+      <div class="container-info">
+        <form action="#" method="get">
+          <div class="cuadrosTexto clearfix">
+            <h5>ACCOUNT</h5>
+  
+            <div class="boxs">
+              <div><img class="icon" src="./img/img-1.png" alt=usuario></div>
+              <label for="usuario"></label>
+              <input type="text" value="Full Name" name="nombre" id="usuario" class="account"/>
+            </div>
+  
+            <div class="boxs"> 
+              <div><img class="icon" src="./img/img-2.png" alt="sobre"></div>
+              <label for="e-mail"></label>
+              <input type="text" value="E-mail" name="e-mail" id="e-mail" class="account">
+            </div>
+            
+            <div class="boxs">
+              <span><img class="icon" src="./img/img-3.png" alt="llave"></span>
+              <label for="password"></label>
+              <input type="text" value="Password" name="password" id="password" class="account">
+            </div>
+          </div>
+  
+          <div class="date clearfix">
+            <h5>DATE OF BIRTH</h5>
+            <label for="date"></label>
+            <input type="date" value="" name="date" id="date" class="account"/>
+          </div>
+  
+          <div class="gender clearfix">
+            <h5>GENDER</h5>
+            <div class="gender-botton">
+              <input type="radio" value="Male" id="gen-m" name="genero">
+              <label for="gen-m">Male</label>
+            </div>
+            
+            <div class="gender-botton">
+              <input type="radio" value="Female" id="gen-f" name="genero">
+              <label for="gen-f">Female</label>
+            </div>
+          </div>
+          <!--PYMENT-->
+          <div class="pyment clearfix">
+            <h5>PYMENT DETAILS</h5>
+            <button class="pymentBotones">
+              <img class="visa" src="img/visa.png" alt="visa">Credit Card
+            </button>
+            <button class="pymentBotones">
+              <img class="paypal" src="img/paypal.png" alt="paypal">Paypal
+            </button>
+          </div>
+          
+          <div class="cuadrosTexto clearfix">
+            <div class="boxs">
+              <div><img class="icon" src="./img/img-4.png" alt="tarjeta"></div>
+              <label for="card"></label>
+              <input type="text" value="Card Number" name="card" id="card" class="account"/>
+            </div>
+  
+            <div class="boxs">
+              <div><img class="icon" src="./img/img-5.png" alt="candado"></div>
+              <label for="candado"></label>
+              <input type="text" value="Card" name="card" id="candado" class="account"/>
+            </div>
+            
+            <div class="date">
+              <label for="date-2"></label>
+              <input type="date" value="" name="date" id="date-2" class="account"/>
+            </div>
+          </div>    
+  
+          <div class="texto clearfix">
+            <h5>TERMS Y CONDITIONS</h5>
+  
+            <input type="checkbox" value="terms" id="terms" name="terminos">
+            <label for="terms">Yes I accept the terms and conditions of signing up to this service and have read the privacy pilicy regarding the storing my information.</label>
+          </div>
+          <button class = "enviar" type="submit" value="submit">Sign Up!</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
