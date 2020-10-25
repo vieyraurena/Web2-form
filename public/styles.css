@@ -3,21 +3,17 @@
 /*PARTIALS*/
 body {
   margin: 0;
-  padding: 0;
-  position: fixed; }
-
-.img-fondo {
-  max-width: 100%;
-  width: 100%;
-  position: relative; }
+  padding: 0; }
 
 .main-wrapper {
   max-width: 1440px;
   margin: 0 auto;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  position: relative; }
+
+.img-fondo {
+  max-width: 100%;
+  width: 100%;
+  position: fixed;
   left: 0; }
 
 .wrapper-form {
