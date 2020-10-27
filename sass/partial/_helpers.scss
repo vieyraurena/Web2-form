@@ -1,8 +1,9 @@
 body{
   margin: 0;
   padding: 0;
+  background-image: url(../../img/fondo.jpg);
+  background-size: cover;
 }
-
 
 .main-wrapper{
   max-width: 1440px;
@@ -10,20 +11,15 @@ body{
   position: relative;
 }
 
-.img-fondo{
-  max-width: 100%;
-  width: 100%;
-}
 .wrapper-form{
   position: absolute;
   right: 50px;
-  top: 15px;
+  top: 10px;
   background-color: rgb(248, 244, 244);
   border: 2px solid rgb(230, 227, 227);
   width: 400px;
   color: gray;
   font-family: Arial, Helvetica, sans-serif;
-  
   box-shadow: 0px 0px 9px 0px rgba(209,209,209,0.49);
 }
 
